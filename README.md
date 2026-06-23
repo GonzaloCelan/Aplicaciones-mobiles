@@ -33,3 +33,7 @@ Link del video:
 https://www.youtube.com/shorts/rEkFf-x1fNw
 
 ---
+Link del video parcial dos:
+https://www.youtube.com/shorts/z3dEBgQhSlY
+
+---

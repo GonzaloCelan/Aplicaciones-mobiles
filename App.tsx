@@ -6,6 +6,7 @@ import { useEffect } from "react";
 
 import AppNavigator from "./src/navigation/AppNavigator";
 
+
 Notifications.setNotificationHandler({
   handleNotification: async () => ({
     shouldShowBanner: true,

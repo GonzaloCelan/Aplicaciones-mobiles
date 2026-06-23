@@ -1,10 +1,11 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-import AddMedicationScreen from '../screens/AddMedicationScreen';
-import HomeScreen from '../screens/HomeScreen';
-import LoginScreen from '../screens/LoginScreen';
-import RegisterScreen from '../screens/RegisterScreen';
+import AddMedicationScreen from "../screens/AddMedicationScreen";
+import HomeScreen from "../screens/HomeScreen";
+import LoginScreen from "../screens/LoginScreen";
+import MedicationDetailScreen from "../screens/MedicationDetailScreen";
+import RegisterScreen from "../screens/RegisterScreen";
 
 const Stack = createNativeStackNavigator();
 
@@ -31,7 +32,13 @@ export default function AppNavigator() {
         <Stack.Screen
           name="AddMedication"
           component={AddMedicationScreen}
-          options={{ title: 'Agregar Medicación' }}
+          options={{ title: "Agregar Medicación" }}
+        />
+
+        <Stack.Screen
+          name="MedicationDetail"
+          component={MedicationDetailScreen}
+          options={{ title: "Detalle del medicamento" }}
         />
 
       </Stack.Navigator>

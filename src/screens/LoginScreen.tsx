@@ -61,7 +61,7 @@ const userLogin = async () => {
 
       <CustomButton
         title="Ingresar"
-        onPress={login}
+        onPress={userLogin}
       />
 
       <TouchableOpacity onPress={() => navigation.navigate("Register")}>
